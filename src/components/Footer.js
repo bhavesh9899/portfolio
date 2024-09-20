@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaInstagram, FaWhatsapp, FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { IoLogoWhatsapp } from "react-icons/io";
 import './Footer.css';
 
 const Footer = () => {
@@ -14,9 +15,9 @@ const Footer = () => {
                 <div className='col-md-2 footer-icons-container'>
                     <h4 className="mb-3 text-white">Social</h4>
                     <div>
-                        <FaInstagram className='footer-icons' />
-                        <FaWhatsapp className='footer-icons' />
-                        <FaFacebookSquare className='footer-icons' />
+                        <a href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" target='_bhavesh'><FaLinkedin className='footer-icons'/></a>
+                        <a href="https://github.com/bhavesh9899" target='_bhavesh'><FaGithub className='footer-icons' /></a>
+                        <a href="https://wa.me/+919979258370/?text=Hello" target='_bhavesh'><IoLogoWhatsapp className='footer-icons' /></a>
                     </div>
                 </div>
             </footer>

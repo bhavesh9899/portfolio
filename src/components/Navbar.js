@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css';
 import { RiBarChartHorizontalLine } from 'react-icons/ri';
-import { FaInstagram, FaWhatsapp, FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { IoLogoWhatsapp } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -31,20 +32,20 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link to="/projects" className="nav-link text-center">Project</Link>
                                 </li>
-                                <li className="nav-item dropdown text-center">
+                                <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
                                     <ul className="dropdown-menu" style={{ fontFamily: ' "Kanit", serif', fontWeight: '100' }}>
                                         <li>
-                                            <a className="dropdown-item text-center"
-                                                href="https://instragram.com/mr._b_vaghela"><FaInstagram className='text-center m-1' style={{ color: '#dd2a7b' }} />Instagram</a>
+                                            <a className="dropdown-item"
+                                                href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" target='_bhavesh'><FaLinkedin className='text-center m-1 mx-2' style={{ color: '#0077b5' }} />Linkedin</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item text-center"
-                                                href="https://www.facebook.com/share/Y5ACUZhGKUj8SZKD/?mibextid=qi20mg"><FaFacebookSquare className='text-center m-1' style={{ color: 'rgb(69, 116, 226)' }} />Facebook</a>
+                                            <a className="dropdown-item"
+                                                href="https://github.com/bhavesh9899" target='_bhavesh'><FaGithub className='text-center m-1 mx-2' style={{ color: '#000' }} />Github </a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item text-center"
-                                                href="https://wa.me/+919979258370/?text=Hello"><FaWhatsapp className='text-center m-1' style={{ color: 'green' }} />Whatsapp</a>
+                                            <a className="dropdown-item"
+                                                href="https://wa.me/+919979258370/?text=Hello" target='_bhavesh'><IoLogoWhatsapp className='text-center m-1 mx-2' style={{ color: 'green' }} />Whatsapp</a>
                                         </li>
                                     </ul>
                                 </li>
