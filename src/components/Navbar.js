@@ -36,15 +36,15 @@ const Navbar = () => {
                                     <ul className="dropdown-menu" style={{ fontFamily: ' "Kanit", serif', fontWeight: '100' }}>
                                         <li>
                                             <a className="dropdown-item text-center"
-                                                href="https://instragram.com/mr._b_vaghela"><FaInstagram className='text-center m-1' style={{ color: '#dd2a7b' }} />Instagram</a>
+                                                href="https://instragram.com/mr._b_vaghela" target="_bhavesh"><FaInstagram className='text-center m-1' style={{ color: '#dd2a7b' }} />Instagram</a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item text-center"
-                                                href="https://www.facebook.com/share/Y5ACUZhGKUj8SZKD/?mibextid=qi20mg"><FaFacebookSquare className='text-center m-1' style={{ color: 'rgb(69, 116, 226)' }} />Facebook</a>
+                                                href="https://www.facebook.com/share/Y5ACUZhGKUj8SZKD/?mibextid=qi20mg" target="_bhavesh"><FaFacebookSquare className='text-center m-1' style={{ color: 'rgb(69, 116, 226)' }} />Facebook</a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item text-center"
-                                                href="https://wa.me/+919979258370/?text=Hello"><FaWhatsapp className='text-center m-1' style={{ color: 'green' }} />Whatsapp</a>
+                                                href="https://wa.me/+919979258370/?text=Hello" target="_bhavesh"><FaWhatsapp className='text-center m-1' style={{ color: 'green' }} />Whatsapp</a>
                                         </li>
                                     </ul>
                                 </li>
