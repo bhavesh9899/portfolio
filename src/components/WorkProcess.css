@@ -1,0 +1,139 @@
+.work-process-card {
+    height: 12rem !important;
+    width: 12rem !important;
+    margin: .8rem .4rem;
+    background: #fff;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, .15);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.2rem !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-process-card::before {
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #0066ff, #6f00ff) !important;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transition: .7s;
+    transform: scale(0);
+}
+
+.work-process-card:hover::before {
+    transform: scale(17);
+    z-index: -1;
+}
+
+.work-process-card:hover p {
+    mix-blend-mode: difference;
+    color: #848484 !important;
+    z-index: 10;
+}
+
+.work-process-card:hover h6 {
+    mix-blend-mode: difference;
+    color: #848484 !important;
+    z-index: 10;
+}
+
+.work-process-card-container {
+    padding-top: 5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-process-icon {
+    height: 3rem;
+    width: 3rem;
+    color: #6f00ff;
+    background: #bdd8ff;
+    padding: .6rem;
+    border-radius: .3rem;
+}
+
+.work-process-card:nth-child(1) {
+    transform: translateY(-1.2rem) !important;
+}
+
+.work-process-card:nth-child(2) {
+    transform: translateY(0rem) !important;
+}
+
+.work-process-card:nth-child(3) {
+    transform: translateY(-1.2rem) !important;
+}
+
+.work-process-card:nth-child(4) {
+    transform: translateY(0rem) !important;
+}
+
+@media(min-width:1400px) {
+    .work-process-card {
+        height: 14rem !important;
+        width: 14rem !important;
+        padding: 1.5rem !important;
+    }
+}
+
+@media(max-width:991px) {
+    .work-process-card {
+        font-size: 80%;
+        height: 10rem !important;
+        width: 10rem !important;
+        margin: .5rem .25rem;
+        padding: 1rem;
+    }
+
+    .work-process-icon {
+        padding: 0.2rem;
+    }
+
+    .work-process-card:nth-child(1) {
+        transform: translateY(-1rem) !important;
+    }
+
+    .work-process-card:nth-child(3) {
+        transform: translateY(-1rem) !important;
+    }
+
+    .work-process-card:hover::before {
+        transform: scale(15);
+        z-index: -1;
+    }
+}
+
+@media(max-width:768px) {
+    .work-process-card-container {
+        padding: 3rem 5rem !important;
+    }
+
+    .work-process-card:hover::before {
+        transform: scale(13);
+        z-index: -1;
+    }
+}
+
+@media(max-width:536px) {
+    .work-process-card {
+        height: 9rem !important;
+        width: 9rem !important;
+    }
+
+    .work-process-card-container {
+        padding: 1.3rem !important;
+    }
+}
+
+@media(max-width:537px) {
+    .work-process-icon {
+        padding: 0rem;
+    }
+}

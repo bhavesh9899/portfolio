@@ -1,0 +1,10 @@
+.form-control{
+    border-width: .2rem !important;
+    transition: .5s;
+}
+.form-control:focus {
+    border-color: #9c9aff !important;
+    box-shadow: none !important;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, .15);
+    color: #5a57ff !important;
+}

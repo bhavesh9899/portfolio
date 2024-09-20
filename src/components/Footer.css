@@ -1,0 +1,13 @@
+.footer-icons {
+    color: #fff;
+    font-size: 1.35rem;
+    margin: .24rem;
+}
+@media(min-width:768px) {
+    .footer-icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+    }
+}

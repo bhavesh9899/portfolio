@@ -1,0 +1,72 @@
+main{
+    position: relative;
+    cursor: none;
+    font-family: "Lato", sans-serif !important;
+}
+main #dot {
+    height: 10rem;
+    width: 10rem;
+    background: linear-gradient(45deg, #0066ff, #6f00ff) !important;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: none;
+    z-index: -1;
+    cursor: none;
+}
+main h1{
+    font-weight: 900 !important;
+} 
+main p{
+    font-style: italic;
+}
+.hero-social-icon{
+    color: #6f00ff; 
+    font-size: 1.5rem; 
+    cursor:pointer;
+}
+.hero-social-icon:hover {
+    color: #ffffff;
+}
+main .mouse{
+    height: 2.5rem;
+    width: 1.5rem;
+    background: transparent;
+    border: .13rem solid #6f00ff;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+main .mouse .mouse-cursor{
+    height: .3rem;
+    width: .3rem;
+    border-radius: 50%;
+    background: #0066ff;
+    animation: cursor 1.2s infinite ease-in-out;
+}
+@keyframes cursor{
+    from{
+        transform: translateY(.5rem);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(1.5rem);
+        opacity: 0;
+    }
+}
+@media(max-width:1000px){
+    main #dot {
+            height: 7rem;
+            width: 7rem;
+        }
+}
+@media(max-width:768px) {
+    main #dot {
+        height: 6rem;
+        width: 6rem;
+    }
+}
