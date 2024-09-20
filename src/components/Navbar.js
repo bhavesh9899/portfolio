@@ -36,6 +36,7 @@ const Navbar = () => {
                                     <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
                                     <ul className="dropdown-menu" style={{ fontFamily: ' "Kanit", serif', fontWeight: '100' }}>
                                         <li>
+<<<<<<< HEAD
                                             <a className="dropdown-item"
                                                 href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" target='_bhavesh'><FaLinkedin className='text-center m-1 mx-2' style={{ color: '#0077b5' }} />Linkedin</a>
                                         </li>
@@ -46,6 +47,18 @@ const Navbar = () => {
                                         <li>
                                             <a className="dropdown-item"
                                                 href="https://wa.me/+919979258370/?text=Hello" target='_bhavesh'><IoLogoWhatsapp className='text-center m-1 mx-2' style={{ color: 'green' }} />Whatsapp</a>
+=======
+                                            <a className="dropdown-item text-center"
+                                                href="https://instragram.com/mr._b_vaghela" target="_bhavesh"><FaInstagram className='text-center m-1' style={{ color: '#dd2a7b' }} />Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item text-center"
+                                                href="https://www.facebook.com/share/Y5ACUZhGKUj8SZKD/?mibextid=qi20mg" target="_bhavesh"><FaFacebookSquare className='text-center m-1' style={{ color: 'rgb(69, 116, 226)' }} />Facebook</a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item text-center"
+                                                href="https://wa.me/+919979258370/?text=Hello" target="_bhavesh"><FaWhatsapp className='text-center m-1' style={{ color: 'green' }} />Whatsapp</a>
+>>>>>>> 2e3eb082e7c66cf9c94b32abfb969bf0ee463974
                                         </li>
                                     </ul>
                                 </li>
