@@ -33,7 +33,7 @@ const Navbar = () => {
                                     <Link to="/projects" className="nav-link text-center">Project</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
+                                    <a href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" className="nav-link dropdown-toggle text-center" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
                                     <ul className="dropdown-menu" style={{ fontFamily: ' "Kanit", serif', fontWeight: '100' }}>
                                         <li>
                                             <a className="dropdown-item" href="https://www.linkedin.com/in/bhavesh-vaghela-73577b238/" target="_blank" rel="noreferrer"><FaLinkedin className='text-center m-1 mx-2' style={{ color: '#0077b5' }} />Linkedin</a>
