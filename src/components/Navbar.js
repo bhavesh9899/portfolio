@@ -48,7 +48,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-center" href="resume.pdf" target="_bhavesh">Resume</a>
+                                    <a className="nav-link text-center" href="https://drive.google.com/file/d/1kIBANhiXkNyzXjlgt6R9Rpy_bHsPohI-/view?usp=drive_link" target="_bhavesh">File</a>
                                 </li>
                                 <Link to="/contact" className="btn btn-primary btn-nav-desktop">Contact</Link>
                             </ul>
@@ -62,3 +62,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
