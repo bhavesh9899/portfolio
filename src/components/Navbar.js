@@ -43,7 +43,7 @@ const Navbar = () => {
                                         </li>
                                         <li>
                                             <a className="dropdown-item"
-                                                href="https://wa.me/+919979258370/?text=Hello" target='_blank' rel="noreferrer"><IoLogoWhatsapp className='text-center m-1 mx-2' style={{ color: 'green' }} />Whatsapp</a>
+                                                href="https://drive.google.com/drive/folders/1yed29jQcFf79h_q8_wJvWdluKgp7rq1w?usp=drive_link" target='_blank' rel="noreferrer"><IoLogoWhatsapp className='text-center m-1 mx-2' style={{ color: 'green' }} />Whatsapp</a>
                                         </li>
                                     </ul>
                                 </li>
