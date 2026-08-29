@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { FaInstagram, FaWhatsapp, FaFacebookSquare } from 'react-icons/fa';
 import './Hero.css';
 
